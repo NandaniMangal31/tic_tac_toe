@@ -1,0 +1,41 @@
+body{
+    background-color: orange;
+}
+.board{
+    margin-top: 190px;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.cell{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+#message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding: 29px;
+}
+#restartBtn{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color:rgb(224, 169, 86);
+    
+
+}
